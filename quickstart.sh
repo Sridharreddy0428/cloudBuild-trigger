@@ -1,1 +1,1 @@
-echo "Hello, world! The time is $(date)."
+echo "Hello, world! The time was $(date)."
