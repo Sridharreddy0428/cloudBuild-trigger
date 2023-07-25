@@ -17,7 +17,7 @@ steps:
   - '--image'
   - 'us-west2-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag1'
   - '--region'
-  - 'us-west21'
+  - 'us-west2'
   - '--platform'
   - 'managed'
   - '--allow-unauthenticated'
