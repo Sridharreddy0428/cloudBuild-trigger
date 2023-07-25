@@ -1,7 +1,6 @@
 # This yaml file will create an image in the existed artifact repository quickstart-docker-repo 
 # To run this yaml file run the below cmd
 # gcloud builds submit --region=us-west2 --config cloudbuild.yaml 
-
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'build', '-t', 'us-west2-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag1', '.' ]
