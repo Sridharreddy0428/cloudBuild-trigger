@@ -3,6 +3,6 @@
 # gcloud builds submit --region=us-west2 --tag us-west2-docker.pkg.dev/project-id/quickstart-docker-repo/quickstart-image:tag1
 FROM alpine
 COPY quickstart.sh /
-RUN chmod+x quickstart.sh
+RUN chmod +x quickstart.sh
 EXPOSE 8000
 CMD ["/quickstart.sh"]
